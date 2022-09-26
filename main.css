@@ -1,0 +1,162 @@
+html,
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 150px;
+  color:white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-image: url('backgrounds/Spirited-Away.jpeg');  */
+  background-image: url('backgrounds/Arrietty.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.timer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  align-items: center; 
+  background-color: rgba(255, 255, 255, 0.446);
+  padding: 85px 85px 0 85px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.clock {
+  width: 845px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.446);
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.446);
+  /* padding: 0 255px 85px 255px; */
+  padding: 0 225px 85px 255px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.timer-btn {
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 17px;
+  margin: 0 20px 0 20px; 
+  border: 3px solid white;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.176);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  /* color: black  !important;
+  background-color: white  !important; */
+  color: black;
+  background-color: white;
+}
+
+.pomo-on {
+  color: black;
+  background-color: white;
+}
+
+.pomo-off {
+  color: white;
+  background-color:rgba(0, 0, 0, 0.176);
+}
+
+.short-on {
+  color: black;
+  background-color: white;
+}
+
+.short-off {
+  color: white;
+  background-color:rgba(0, 0, 0, 0.176);
+}
+
+.long-on {
+  color: black;
+  background-color: white;
+}
+
+.long-off {
+  color: white;
+  background-color:rgba(0, 0, 0, 0.176);
+}
+
+/* .timer-btn-control {
+  height: 60px;
+  width: 145px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+  font-weight: bold;
+  background-color:rgba(0, 0, 0, 0.176);
+  border: 3px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+} */
+
+.timer-btn-start {
+  height: 60px;
+  width: 145px;
+  color: white; 
+  background-color:rgba(0, 0, 0, 0.176);
+}
+
+.timer-btn-pause {
+  height: 60px;
+  width: 145px;
+  color: black; 
+  background-color: white;
+}
+
+.timer-btn-refresh,
+.timer-btn-settings {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.timer-btn-refresh:hover,
+.timer-btn-settings:hover {
+  background-color: transparent;
+}
+
+.refresh,
+.settings {
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  top: -6px;
+  left: -6px
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
