@@ -101,18 +101,6 @@ button:hover {
   background-color:rgba(0, 0, 0, 0.176);
 }
 
-/* .timer-btn-control {
-  height: 60px;
-  width: 145px;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 25px;
-  font-weight: bold;
-  background-color:rgba(0, 0, 0, 0.176);
-  border: 3px solid white;
-  border-radius: 50px;
-  cursor: pointer;
-} */
-
 .timer-btn-start {
   height: 60px;
   width: 145px;
